@@ -1,0 +1,101 @@
+2013/07/11 23:33:20 [error] [exception.CException] exception 'CException' with message 'Alias "aplication.models.Registration" is invalid. Make sure it points to an existing directory or file.' in C:\xampp2\htdocs\yii\framework\YiiBase.php:341
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\gii\generators\form\FormCode.php(58): YiiBase::import('aplication.mode...', true)
+#1 C:\xampp2\htdocs\yii\framework\validators\CInlineValidator.php(42): FormCode->validateModel('model', Array)
+#2 C:\xampp2\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 C:\xampp2\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FormCode), NULL)
+#4 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/form')
+#12 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/agencia/index.php?r=gii/form
+HTTP_REFERER=http://localhost/agencia/index.php?r=gii/form
+---
+2013/07/11 23:38:06 [error] [exception.CException] exception 'CException' with message 'Alias "application.models.RegForm" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp2\htdocs\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\gii\generators\form\FormCode.php(58): YiiBase::import('application.mod...', true)
+#1 C:\xampp2\htdocs\yii\framework\validators\CInlineValidator.php(42): FormCode->validateModel('model', Array)
+#2 C:\xampp2\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 C:\xampp2\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FormCode), NULL)
+#4 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/form')
+#12 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/agencia/index.php?r=gii/form
+HTTP_REFERER=http://localhost/agencia/index.php?r=gii/form
+---
+2013/07/11 23:38:40 [error] [exception.CException] exception 'CException' with message 'Alias "application.models.RegForm" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp2\htdocs\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\gii\generators\form\FormCode.php(58): YiiBase::import('application.mod...', true)
+#1 C:\xampp2\htdocs\yii\framework\validators\CInlineValidator.php(42): FormCode->validateModel('model', Array)
+#2 C:\xampp2\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 C:\xampp2\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FormCode), NULL)
+#4 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/form')
+#12 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/agencia/index.php?r=gii/form
+HTTP_REFERER=http://localhost/agencia/index.php?r=gii/form
+---
+2013/07/11 23:57:32 [error] [exception.CException] exception 'CException' with message 'Alias "application.models.RegForm" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp2\htdocs\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\gii\generators\form\FormCode.php(58): YiiBase::import('application.mod...', true)
+#1 C:\xampp2\htdocs\yii\framework\validators\CInlineValidator.php(42): FormCode->validateModel('model', Array)
+#2 C:\xampp2\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 C:\xampp2\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(FormCode), NULL)
+#4 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp2\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp2\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp2\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp2\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp2\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/form')
+#12 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/agencia/index.php?r=gii/form
+HTTP_REFERER=http://localhost/agencia/index.php?r=gii/form
+---
+2013/07/12 00:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "reservas".' in C:\xampp2\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('reservas')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('reservas')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/reservas')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/agencia/index.php?r=site/reservas
+---
+2013/07/12 00:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp2\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp2\htdocs\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp2\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp2\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\Users\daniel\Documents\GitHub\tp-spd\distribuidos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/agencia/index.php?r=site/login
+HTTP_REFERER=http://localhost/agencia/index.php?r=site/reservas
+---
